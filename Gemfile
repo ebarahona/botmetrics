@@ -63,7 +63,7 @@ group :development do
   gem 'quiet_assets',             '~> 1.1.0'
   gem 'git',                      '~> 1.3.0'
   gem 'parity',                   '~> 0.9.3'
-  gem 'letter_opener'
+  gem 'letter_opener', '>= 1.4.1'
   gem 'derailed',                 '~> 0.1.0'
 end
 
@@ -81,7 +81,7 @@ end
 group :test do
   gem 'database_cleaner',         '~> 1.3.0'
   gem 'shoulda-matchers',         '~> 3.1.1', require: false
-  gem 'webmock',                  '~> 1.22.3'
+  gem 'webmock', '~> 1.22.6'
 end
 
 group :production do
