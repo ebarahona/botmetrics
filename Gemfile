@@ -61,7 +61,7 @@ gem 'validate_url',             github: 'perfectline/validates_url', ref: '0844e
 group :development do
   gem 'foreman',                  '~> 0.82.0'
   gem 'quiet_assets',             '~> 1.1.0'
-  gem 'git',                      '~> 1.3.0'
+  gem 'git', '~> 1.11.0'
   gem 'parity',                   '~> 0.9.3'
   gem 'letter_opener'
   gem 'derailed',                 '~> 0.1.0'
