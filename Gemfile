@@ -41,7 +41,7 @@ gem 'will_paginate-bootstrap',  '~> 1.0.1'
 # Redis
 gem 'relax-rb',                 '~> 0.5.0', require: 'relax'
 gem 'sidekiq',                  '~> 4.1.0'
-gem 'sinatra',                  '~> 1.4.6'
+gem 'sinatra', '~> 4.1.0'
 gem 'redis-namespace',          '~> 1.5.2'
 gem 'pusher',                   '~> 0.15.1'
 
