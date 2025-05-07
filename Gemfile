@@ -26,7 +26,7 @@ gem 'modernizr-rails',          '~> 2.7.1'
 gem 'kramdown',                 '~> 1.11.1'
 
 # Dashboard stuff
-gem 'groupdate',                '~> 2.5.3'
+gem 'groupdate', '~> 6.6.0'
 gem 'chartkick',                github: 'botmetrics/chartkick', ref: '92cc9566c0b4fe2c2db36da20b4d4f2599f23e3d'
 
 # Auth
@@ -69,7 +69,7 @@ end
 
 group :development, :test do
   gem 'dotenv',                   '~> 2.1.1'
-  gem 'rspec-rails',              '~> 3.4.2'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'rspec-its',                '~> 1.2.0'
   gem 'byebug',                   '~> 2.0.0'
   gem 'timecop',                  git: 'https://github.com/steakknife/timecop', ref: '8371a3abe23d93bbf2a68499fdf73a11587d042d'
