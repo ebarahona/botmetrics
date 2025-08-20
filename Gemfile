@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.3.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.1.5.2'
 # Use postgresql as the database for Active Record
 gem 'pg',    '~> 0.18.4'
 
@@ -10,7 +10,7 @@ gem 'pg',    '~> 0.18.4'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks',    '~> 5.0.0.beta'
 gem 'excon',         '~> 0.49.0'
-gem 'with_advisory_lock',       '~> 3.0.0'
+gem 'with_advisory_lock', '~> 3.1.0'
 gem 'local_time',               '~> 1.0.3'
 gem 'haml',                     '~> 4.0.6'
 gem 'sass-rails',               '~> 5.0.6'
